@@ -1,8 +1,4 @@
 
-
-
-
-
 function setup() {
   createCanvas(500, 400);
 }
@@ -12,6 +8,8 @@ function draw() {
   MostraCarro();
   MostraAtor();
   MoverCarro();
+  retonarCarro();
   MoverAtor();
+  verificaColisao();
 }
 
